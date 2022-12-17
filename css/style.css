@@ -26,7 +26,7 @@ form{
 }
 
 fieldset{
-    border: 1px solid #DBDBDB;
+    border: none;
 }
 
 input{
@@ -85,8 +85,7 @@ footer > nav > ul{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    
-    
+       
 
 }
 
