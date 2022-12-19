@@ -153,8 +153,7 @@ footer > nav > ul > li > a, p{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 122px auto 0;
     width: 22%;
 }
 
