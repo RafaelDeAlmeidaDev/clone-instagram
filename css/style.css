@@ -132,8 +132,13 @@ footer > nav > ul > li > a, p{
     color: #0095F6;
 }
 
-.msg_cria_conta{
-    margin-top: 80px;
+.cadastro{
+    border: solid 1px #DBDBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    height: 63px;
 }
 
 .download_app{
@@ -151,6 +156,11 @@ footer > nav > ul > li > a, p{
     margin-right: auto;
     margin-left: auto;
     width: 22%;
+}
+
+.login{
+    border: solid 1px #DBDBDB;
+    padding: 40px;
 }
 
 @media(max-width: 992px){
