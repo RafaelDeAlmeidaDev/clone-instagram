@@ -21,7 +21,7 @@ form{
 }
 
 form{
-    max-width: 80vw;
+    width: 239px;
     margin-left: auto;
     margin-right: auto;
     height: 126px;
@@ -32,7 +32,7 @@ fieldset{
 }
 
 input{
-    width: 80vw;
+    width: 258px;
     border: 1px solid #585656;
     display: block;
     height: 38px;
@@ -76,7 +76,9 @@ p{
 }
 
 footer{
-    margin: 56px auto 0 auto;
+    display: inline-block;
+    margin-top: 162px;
+
    
 }
 
@@ -112,7 +114,7 @@ footer > nav > ul > li > a, p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80vw;
+    width: 80%;
 }
 
 .recupera-senha{
@@ -140,4 +142,19 @@ footer > nav > ul > li > a, p{
     font-weight: 400;
     display: flex;
     flex-flow: column wrap;
+}
+
+.organiza-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: auto;
+    margin-left: auto;
+    width: 22%;
+}
+
+@media(max-width: 992px){
+    .img-cell{
+        display: none;
+    }
 }
